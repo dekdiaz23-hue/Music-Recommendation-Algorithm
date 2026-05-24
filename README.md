@@ -28,9 +28,9 @@ data/
    cleaned_index.pkl            Saved row index from cleaning
    kmeans_model.pkl             Saved trained KMeans model
 
-01_EDA.ipynb                    Exploratory Data Analysis
-02_Cleaning_Preprocessing.ipynb Data Cleaning current version
-03_Modeling.ipynb               Modeling current version
+EDA.ipynb                           Exploratory Data Analysis
+02_Cleaning v1 & v2 .ipynb Data     Cleaning current version
+03_Modeling v1 & v2.ipynb           Modeling current version
 
 README.md                       This file
 
@@ -43,7 +43,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn kneed jupyter
 
 ### Run notebooks in order
 
-01_EDA.ipynb then 02_Cleaning_Preprocessing.ipynb then 03_Modeling.ipynb
+EDA.ipynb then Cleaning v1.ipynb then Modeling v1.ipynb, then Cleaning v2.ipynb & Cleaning v2.ipynb
 
 Each notebook saves output files that the next notebook reads.
 Do not skip steps or run out of order.
@@ -178,11 +178,11 @@ age               Score 0 to 1 where 1 is oldest and 0 is newest
 
 ## Report Questions Answered
 
-Question i:   EDA findings and correlated columns          01_EDA.ipynb
-Question ii:  Column drop decisions and reasoning          02_Cleaning_Preprocessing.ipynb
-Question iii: Optimal K and how it was determined          03_Modeling.ipynb
-Question iv:  Cluster descriptions in human terms          03_Modeling.ipynb
-Question v:   Song recommendations based on clusters       03_Modeling.ipynb
+Question i:   EDA findings and correlated columns          EDA.ipynb
+Question ii:  Column drop decisions and reasoning          Cleaning v1 and v2.ipynb
+Question iii: Optimal K and how it was determined          Modeling.ipynb
+Question iv:  Cluster descriptions in human terms          Modeling.ipynb
+Question v:   Song recommendations based on clusters       Modeling.ipynb
 
 
 ## Notes
