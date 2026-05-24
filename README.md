@@ -29,8 +29,8 @@ data/
    kmeans_model.pkl             Saved trained KMeans model
 
 EDA.ipynb                           Exploratory Data Analysis
-02_Cleaning v1 & v2 .ipynb Data     Cleaning current version
-03_Modeling v1 & v2.ipynb           Modeling current version
+Cleaning v1 & v2 .ipynb Data     Cleaning current version
+Modeling v1 & v2.ipynb           Modeling current version
 
 README.md                       This file
 
