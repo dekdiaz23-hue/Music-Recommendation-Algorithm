@@ -1,2 +1,5 @@
 data/recommend - recommend.csv
 data/train.csv
+data/train_with_clusters.csv
+data/recommend_with_clusters.csv
+data/kmeans_model.pkl
